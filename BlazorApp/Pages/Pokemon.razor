@@ -1,0 +1,39 @@
+﻿@page "/pokemon"
+@using BlazorApp.Data
+@inject PokemonService PokemonService
+<h3>Pokemon</h3>
+
+@if (IsLoading)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <table class="table">
+        <thead>
+        <tr>
+            <th>Name</th>
+            <th>URL</th>
+        </tr>
+        </thead>
+        <tbody>
+        @foreach (var pokemon in PokemonList.Results)
+        {
+            <tr>
+                <td>@pokemon.Name</td>
+                <td>@pokemon.Url</td>
+            </tr>
+        }
+        </tbody>
+    </table>
+}
+@code {
+    private Pokemons PokemonList { get; set; } = new Pokemons();
+    private bool IsLoading { get; set; } = false;
+    protected async override Task OnInitializedAsync()
+    {
+        IsLoading = true;
+        PokemonList = await PokemonService.GetPokemonAsync();
+        IsLoading = false;
+    }
+}

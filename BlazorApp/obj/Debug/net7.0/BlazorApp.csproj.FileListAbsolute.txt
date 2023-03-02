@@ -30,3 +30,8 @@ D:\Workspace\BlazorApp\BlazorApp\obj\Debug\net7.0\refint\BlazorApp.dll
 D:\Workspace\BlazorApp\BlazorApp\obj\Debug\net7.0\BlazorApp.pdb
 D:\Workspace\BlazorApp\BlazorApp\obj\Debug\net7.0\BlazorApp.genruntimeconfig.cache
 D:\Workspace\BlazorApp\BlazorApp\obj\Debug\net7.0\ref\BlazorApp.dll
+D:\Workspace\BlazorApp\BlazorApp\bin\Debug\net7.0\System.Net.Http.Json.dll
+D:\Workspace\BlazorApp\BlazorApp\bin\Debug\net7.0\System.Text.Encodings.Web.dll
+D:\Workspace\BlazorApp\BlazorApp\bin\Debug\net7.0\System.Text.Json.dll
+D:\Workspace\BlazorApp\BlazorApp\bin\Debug\net7.0\runtimes\browser\lib\net7.0\System.Text.Encodings.Web.dll
+D:\Workspace\BlazorApp\BlazorApp\obj\Debug\net7.0\BlazorApp.csproj.CopyComplete

@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "XrTb+vYCq1/W4xlcTyagsgBlw7UFhAZ2yWAm7202jbjCDWDmdpLupzTTS0e6rZ5c+XO5b/wdhOxvszRlgvMhFg==",
+  "dgSpecHash": "xyNIqIid8Y9Pf56xHw/yc6fMx8aDl4iC3lcB3NIfUSbYR0orlsbGE4vRW+8TW2OlGwVhG+H/Wb/sDoSNiQ2Dsg==",
   "success": true,
   "projectFilePath": "D:\\Workspace\\BlazorApp\\BlazorApp\\BlazorApp.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\ashsh\\.nuget\\packages\\system.net.http.json\\8.0.0-preview.1.23110.8\\system.net.http.json.8.0.0-preview.1.23110.8.nupkg.sha512",
+    "C:\\Users\\ashsh\\.nuget\\packages\\system.text.encodings.web\\8.0.0-preview.1.23110.8\\system.text.encodings.web.8.0.0-preview.1.23110.8.nupkg.sha512",
+    "C:\\Users\\ashsh\\.nuget\\packages\\system.text.json\\8.0.0-preview.1.23110.8\\system.text.json.8.0.0-preview.1.23110.8.nupkg.sha512"
+  ],
   "logs": []
 }
